@@ -32,7 +32,7 @@ This is a **Food Recipe Management Application** built with Node.js, Express, an
 
    ## npm start
   
-  # how to start server backend
+  # how to start server Frontend
   
   ## cd client
   
