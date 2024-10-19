@@ -1,0 +1,19 @@
+.bg-img {
+  background-image: url('../public/images/Banner-Halloween.webp');
+  width: 100%;
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  object-fit: cover;
+}
+
+
+.search {
+  padding: 15px 60px;
+}
+
+.card img{
+  width: 100%;
+  height: 250px;
+}

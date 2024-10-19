@@ -1,0 +1,96 @@
+.section-meals {
+    padding: 9.6rem 0;
+  }
+  
+  .meal-card {
+    width: 100%; 
+    max-width: 20rem;
+    border-radius: 11px;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .meal-card:hover {
+    transform: translateY(-1.2rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+  }
+  
+  .meal-img {
+    width: 100%;
+    height: 224px;
+    object-fit: cover;
+  }
+  
+  .meal-tags {
+    margin-bottom: 1.2rem;
+    display: flex;
+    gap: 0.4rem;
+  }
+  
+  .tag {
+    padding: 0.4rem 0.8rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background-color: #51cf66;
+    color: #333;
+    border-radius: 100px;
+    font-weight: 600;
+  }
+  
+  .meal-attributes {
+    margin-top: 1.6rem;
+  }
+  
+  .meal-attribute {
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    gap: 1rem;
+  }
+  
+  .meal-icon {
+    height: 2.4rem;
+    width: 2.4rem;
+    color: #e67e22;
+  }
+  
+
+
+
+
+
+  
+  h2 {
+    text-align: center;
+    color: #343a40; 
+  }
+  
+  .form-label {
+    font-weight: bold; 
+  }
+  
+  .form-control {
+    border-radius: 5px; 
+    border: 1px solid #ced4da; 
+  }
+  
+  .form-control:focus {
+    border-color: #007bff; 
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); 
+  }
+  
+  button {
+    width: 100%; 
+    margin-top: 20px; 
+  }
+  
+  @media (max-width: 768px) {
+    .col-6 {
+      width: 100%; 
+    }
+  }
+  
+
+  .pt-120{
+    padding-top: 300px;
+  }
