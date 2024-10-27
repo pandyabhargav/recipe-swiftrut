@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Container, Form, Button, Alert } from 'react-bootstrap';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
@@ -7,6 +7,15 @@ function Login() {
   const [formData, setFormData] = useState({ email: '', password: '' });
   const [error, setError] = useState('');
   const navigate = useNavigate();
+
+  // Check if the user has visited this page before
+  useEffect(() => {
+    const hasVisited = localStorage.getItem('hasVisitedLogin');
+    if (!hasVisited) {
+      localStorage.setItem('hasVisitedLogin', 'true');
+      window.location.reload(); // Refresh the page on first visit
+    }
+  }, []);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
